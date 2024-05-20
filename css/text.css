@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #1f1f1f;
+  }
+  h2{
+    color:green;
+    border-bottom: 1px solid green;;
+  }
+  ul{
+    min-height: 30px;
+    width: 60%;
+    border: 1px solid green;
+    color:green;
+    h2{
+      border:0;
+    }
+    li{
+      padding: 20px;
+      border: 1px solid green;
+      border-bottom:0;
+      border-right:0;
+      .icons{
+        font-size:90%;
+        margin-right:5px;
+      }
+    }
+  }
