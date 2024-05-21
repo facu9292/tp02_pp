@@ -115,7 +115,6 @@ main.menu {
             .card-img {
                 height: 100%;
                 width: 30%;
-                background-image: url(../img/platos/plato2.jpg);
                 background-size: cover;
                 background-position: center;
                 position: relative;
