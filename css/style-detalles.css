@@ -139,11 +139,11 @@ main.menu {
             }
 
             .plato1 {
-                background-image: url(../img/platos/plato3.jpg);
+                background-image: url(../img/platos/plato1.jpg);
             }
 
             .plato2 {
-                background-image: url(../img/platos/plato3.jpg);
+                background-image: url(../img/platos/plato2.jpg);
             }
 
             .plato3 {
@@ -151,15 +151,15 @@ main.menu {
             }
 
             .plato4 {
-                background-image: url(../img/platos/plato3.jpg);
+                background-image: url(../img/platos/plato4.jpg);
             }
 
             .plato5 {
-                background-image: url(../img/platos/plato3.jpg);
+                background-image: url(../img/platos/plato5.jpg);
             }
 
             .plato6 {
-                background-image: url(../img/platos/plato3.jpg);
+                background-image: url(../img/platos/plato6.jpg);
             }
 
             .card-info {
@@ -188,10 +188,12 @@ main.menu {
 }
 
 main.reviews {
+    
     section.options {
         .card {
             .card-img {
                 border-radius: 50%;
+                background-image: url(../img/fondoprincipal.jpg);
 
                 .card-stars {
                     position: absolute;
@@ -219,15 +221,27 @@ main.reviews {
             }
 
             .user1 {
-                background-image: url(../img/user/1.jpg);
+                background-image: url(../img/user/user1.jpg);
             }
 
             .user2 {
-                background-image: url(../img/user/2.jpg);
+                background-image: url(../img/user/user2.jpg);
             }
 
             .user3 {
-                background-image: url(../img/user/3.jpg);
+                background-image: url(../img/user/user3.jpg);
+            }
+
+            .user4 {
+                background-image: url(../img/user/user4.jpg);
+            }
+
+            .user5 {
+                background-image: url(../img/user/user5.jpg);
+            }
+
+            .user6 {
+                background-image: url(../img/user/user6.jpg);
             }
 
             .card-info {
