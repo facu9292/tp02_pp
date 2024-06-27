@@ -80,6 +80,7 @@ fetch('js/resto.json')
           document.getElementById('food-name').innerText=plato.name;
           document.getElementById('food-price').innerText=plato.price;
           document.querySelector('.food-desc').innerText=plato.desc;
+          document.querySelector('.food-image').innerText=plato.image;
         }
       })
     }
