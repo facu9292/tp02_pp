@@ -50,6 +50,8 @@ let counter = 1
 
 cont.innerText = counter
 
+
+
 function aumentarMorfi(){
     if (counter < 3  ){
         counter = counter + 1
@@ -69,5 +71,9 @@ function resTa(){
         resta.style.cursor = "not-allowed"
     }
 
+
+   
 }
+
+
 console.log(counter)

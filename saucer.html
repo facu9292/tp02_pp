@@ -5,46 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/material-icons.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylos.css">
     <link rel="stylesheet" href="css/style-saucer.css">
-    <title>ORDEN</title>
+    <title>MorfiTeo</title>
 </head>
 
 <body>
-    <header>
-        <section class="resto-close flex">
-            <a href="./menu.html" class="icons">VOLVER</a>
-        </section>
 
+     <header>
+        
         <section class="portada"></section>
         <section class="title flex">
-            <h1 class="food-name">ÑOQUIS</h1>
-            <div class="food-price">&#8364;8500</div>
+            <h1 id="food-name">Comida Nombre</h1>
+            <div id="food-price">$6.99</div>
         </section>
     </header>
 
     <main>
         <section class="food-desc">
             <h5>
-                ESTE PLATO CONTIENE ÑOQUIS CON SALSA BLANCA Y POLLO
+                alta mila de pollo
             </h5>
         </section>
         <section class="add-note">
-            <input type="text" placeholder="Agregar nota">
+            <input type="text" placeholder="Add a note (extra sauce, no onions, etc.)">
         </section>
     </main>
 
     <footer class="flex">
-
-        <div class="food-count center">
-            <button class="icons">remove</button>
-            <h3 class="center">2</h3>
-            <button class="icons">add</button>
-
+        <div class="flex">
+            <div class="food-count center">
+                <button class="icons" id="restar">remove</button>
+                <h3 class="center" id="num"></h3>
+                <button class="icons" id="sumar">add</button>
+            </div>
+            <input type="submit" class="food-addToCart" value="ADD TO CART">
         </div>
-        <input type="submit" class="food-addToCart" value="ADD TO CART">
     </footer>
-
+    <script src="js/saucer.js"></script>
 </body>
 
 </html>
