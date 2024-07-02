@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/material-icons.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"  rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"> 
   <link rel="stylesheet" href="css/material-icons.css">
-  <link rel="stylesheet" href="css/styles.css">
   <title>TP03</title>
 </head>
+
 <body>
   <header>
     <section class="portada">
@@ -16,14 +20,18 @@
         <h6>It's time for lunch </h6>
       </div>
       <div class="buscador">
-        <div class="icono"><span class="icons">&#x1F5FA;</span></div>
+        <div class="icono">
+          <span class="icons">&#x1F5FA;</span>
+        </div>
         <input type="search" placeholder="Search Restaurant">
         <input class="icons" type="submit" value="search">
       </div>
     </section>
+
+
     <nav class="categorias flex">
       <a href="#1" class="btn_cat">
-        <span class="icons">ramen_dining</span>
+        <span class="icons">person</span>
         <div class="f25">Chinese</div>
       </a>
       <a href="#2" class="btn_cat">
@@ -60,12 +68,21 @@
       </a>
     </nav>
   </header>
+
   <main>
     <section class="productos">
       <div class="text">OFFERS</div>
       <div class="wrap" id="restoList"></div>
     </section>
   </main>
+
+
+  <span class="icons">
+    settings
+  </span>
+
   <script src="js/index.js"></script>
+
 </body>
+
 </html>
